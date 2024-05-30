@@ -48,15 +48,15 @@ function UpcomingEvents() {
           <h2 className="text-blue-500 font-semibold text-xl">
             FEATURED WEBINARS
           </h2>
-          <p className="text-4xl md:text-4xl sm:text-3xl">
+          <p className="text-4xl md:text-4xl sm:text-3xl mt-4">
             {" "}
             Enhance your musical journey
           </p>
         </div>
-        <div className="mt-10">
+        <div className="mt-5 md:mt-6">
           <HoverEffect items={upcomingWebinars} />
         </div>
-        <div className="mt-10 text-center">3</div>
+        <div className="mt-5 md:mt-6 text-center">3</div>
       </div>
     </div>
   );

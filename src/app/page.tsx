@@ -1,5 +1,7 @@
 import FeaturedCourses from '@/components/FeaturedCourses'
+import Footer from '@/components/Footer'
 import HeroSection from '@/components/HeroSection'
+import InstructorsSection from '@/components/InstructorsSection'
 import TestimonialCards from '@/components/TestimonialCards'
 import UpcomingEvents from '@/components/UpcomingEvents'
 import WhyChooseUs from '@/components/WhyChooseUs'
@@ -13,6 +15,8 @@ function MainPage() {
       <WhyChooseUs />
       <TestimonialCards />
       <UpcomingEvents />
+      <InstructorsSection />
+      <Footer />
     </main>
   )
 }
