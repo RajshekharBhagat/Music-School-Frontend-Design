@@ -1,7 +1,7 @@
 "use client";
 function Footer() {
   return (
-    <div className="grid md:grid-cols-4 bg-dot-white/[0.2] gap-10 md:gap-6 p-10 md:p-8">
+    <div className="grid bg-black md:grid-cols-4 bg-dot-white/[0.2] gap-10 md:gap-6 p-10 md:p-8">
       <div>
         <h2 className="text-lg font-semibold">About Us</h2>
         <p className="mt-5 md:mt-8 text-sm text-neutral-300">
